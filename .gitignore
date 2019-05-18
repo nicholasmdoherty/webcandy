@@ -1,10 +1,13 @@
 .idea/
+*/__pycache__/
 *.pyc
-*/.pytest_cache
+
+webcandy.log
 
 static/node_modules
 static/dist
+
 server/venv
 server/migrations
-
-webcandy.db
+server/.env
+server/.flaskenv

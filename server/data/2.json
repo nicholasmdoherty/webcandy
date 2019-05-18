@@ -1,0 +1,13 @@
+{
+    "colors": {
+        "green": "#0000ff",
+        "purple": "#aa00aa"
+    },
+    "color_lists": {
+        "warm": [
+            "#e22121",
+            "#ee6604",
+            "#ffe500"
+        ]
+    }
+}

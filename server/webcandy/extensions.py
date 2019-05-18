@@ -1,11 +1,7 @@
-from flask_login import LoginManager
-from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
-from .fcserver import FCServer
-from .controller import Controller
+from flask_migrate import Migrate
+from flask_httpauth import HTTPTokenAuth
 
 db = SQLAlchemy()
 migrate = Migrate()
-login_manager = LoginManager()
-fcserver = FCServer()
-controller = Controller()
+auth = HTTPTokenAuth()
